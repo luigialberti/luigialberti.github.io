@@ -196,6 +196,8 @@ kramdown:
   enable_coderay: false
 
 
+
+# (To add collection, I changed _config.yml collections part and navigation.yml file, added [collection_name].html file in _pages folder, and wrote new posts with category in the folder named _study that I made. Posts in _study folder is visible in the ‘study’ tab, but not visible in the ‘category’ tab.)
 # Collections
 collections:
   research:
