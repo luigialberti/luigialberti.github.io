@@ -3,8 +3,7 @@ title: "Libro per il corso di ENERTRONICA"
 collection: publications
 permalink: /publication/2023-09-enertronica
 date: 2023-09-01
-paperurl: 'available on Amazon'
-citation: 'Luigi Alberti, Appunti del corso di ENERTRONICA, 2021, ISBM 979-8471858589, 273 pagine.'
+citation: 'Luigi Alberti, Appunti del corso di ENERTRONICA, 2021, ISBN 979-8471858589, 273 pagine, disponibile in Amazon'
 ---
 
 Questo testo raccoglie il materiale didattico relativo al corso di Enertronica
