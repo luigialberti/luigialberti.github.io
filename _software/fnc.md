@@ -13,30 +13,28 @@ and shown in the widget.
 The current wavefors versus time are shown as well, the two representations being
 synchronized.</p>
 
-<pre>
-<code class="language-python">
-  from dolomites import fnc
-  from PySide6.QtWidgets import QApplication
-  import sys, numpy as np
+```python
+from dolomites import fnc
+from PySide6.QtWidgets import QApplication
+import sys, numpy as np
 
-  app = QApplication([])
-  win = fnc.fnc_widget()
+app = QApplication([])
+win = fnc.fnc_widget()
 
 
-  f    = 50  # the frequncy of the current
-  Im   = 100 # the peak value
-  t    = np.linspace(0,2/f,201) # we take 2 periods
+f  = 50  # the frequncy of the current (Hz)
+Im = 100 # the peak value (A)
+t  = np.linspace(0,2/f,201) # we take 2 periods
 
-  # define the 3-phase quantities
-  # here we consider the main harmonic and a 7th harmonic
-  a = Im*np.cos(2*np.pi*f*t)             + 0.2*Im*np.sin(7*2*np.pi*f*t)
-  b = Im*np.cos(2*np.pi*f*t - 2/3*np.pi) + 0.2*Im*np.sin(7*2*np.pi*f*t- 7*2/3*np.pi)
-  c = Im*np.cos(2*np.pi*f*t - 4/3*np.pi) + 0.2*Im*np.sin(7*2*np.pi*f*t- 7*4/3*np.pi)
+# define the 3-phase quantities
+# here we consider the main harmonic and a 7th harmonic
+a = Im*np.cos(2*np.pi*f*t)             + 0.2*Im*np.sin(7*2*np.pi*f*t)
+b = Im*np.cos(2*np.pi*f*t - 2/3*np.pi) + 0.2*Im*np.sin(7*2*np.pi*f*t- 7*2/3*np.pi)
+c = Im*np.cos(2*np.pi*f*t - 4/3*np.pi) + 0.2*Im*np.sin(7*2*np.pi*f*t- 7*4/3*np.pi)
 
-  win.add_series(t,a,b,c)
-  win.show()
-</code>
-</pre>
+win.add_series(t,a,b,c)
+win.show()
+```
 
 <p>
     <image src='/images/dolomites/fnc.jpg'/>

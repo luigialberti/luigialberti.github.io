@@ -5,5 +5,5 @@ excerpt: "climbing wall: an open hardware small-scale test bench for electric dr
 ---
 
 ```python
-print('Hello World!')
+...some code to come...
 ```

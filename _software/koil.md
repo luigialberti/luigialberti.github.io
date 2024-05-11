@@ -7,8 +7,7 @@ excerpt: "koil: a tool for the synthesis and the analysis of a winding."
 koil allows both the synthesis and the analysis of a winding. In the synthesis, given the main winding parameters, i.e. the number of phase m, the number of slots Q and the number of pole pairs p, a symmetrical and balanced winding is computed. In the analysis, the user can insert coil by coil any kind of winding, setting any number of phases and conductors.</p>
 <p>As an example, the following code compute a 12-slot 10-pole winding comparing the winding factor for equal and unequal slot distribution.</p>
 
-<p>
-  <pre><code class="language-python">
+```python
 w = koil.m_phase_winding()
 m = 3   # number of phases
 Q = 12  # number of slots
@@ -32,16 +31,19 @@ print('----')
 # compute the winding factors for unequal distributed slots
 for _w in w.windings:
     print(_w.get_kw(nu=5,angles=angles))
+```
 
-		0.9659258262890683
-		0.9659258262890683
-		0.9659258262890683
-		----
-		1.0
-		1.0
-		1.0
-  </code></pre>
-  </p>
-  <p>
+<p>The code above produces:</p>
+
+```python
+0.9659258262890683
+0.9659258262890683
+0.9659258262890683
+----
+1.0
+1.0
+1.0
+```
+<p>
     <image src='/images/dolomites/koil.jpeg' />
 </p>
