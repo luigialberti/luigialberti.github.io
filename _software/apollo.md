@@ -4,7 +4,9 @@ collection: software
 excerpt: "apollo: a tool to evaluate self-sensing capability of a synchronous machine."
 ---
 <p>
-apollo is a package to elaborate flux-linkage maps of a synchronous machine.</p>
+apollo is a package to elaborate flux-linkage maps of a synchronous machine.
+A full description of the underlying algorithm can be found in
+<a href='/publication/self-sensing'>this paper</a>.</p>
 <p>As an example, the following code evaluate the self-sensing capability
 trjectories starting from the flux maps of a motor.</p>
 
