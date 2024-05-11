@@ -4,7 +4,8 @@ collection: software
 excerpt: "koil: a tool for the synthesis and the analysis of a winding."
 ---
 <p>
-koil allows both the synthesis and the analysis of a winding. In the synthesis, given the main winding parameters, i.e. the number of phase m, the number of slots Q and the number of pole pairs p, a symmetrical and balanced winding is computed. In the analysis, the user can insert coil by coil any kind of winding, setting any number of phases and conductors.</p>
+koil allows both the synthesis and the analysis of a winding. In the synthesis, given the main winding parameters, i.e. the number of phase m, the number of slots Q and the number of pole pairs p, a symmetrical and balanced winding is computed. In the analysis, the user can insert coil by coil any kind of winding, setting any number of phases and conductors. A full description of the underlying algorithm can be found in
+<a href='/publication/multilayer-windings'>this paper</a>.</p>
 <p>As an example, the following code compute a 12-slot 10-pole winding comparing the winding factor for equal and unequal slot distribution.</p>
 
 ```python
