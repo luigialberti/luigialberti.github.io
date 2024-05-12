@@ -1,5 +1,5 @@
 ---
-title: "Self sensing capability of synchronous machines"
+title: "Design of symmetrical and balanced windings"
 collection: publications
 permalink: /publication/multilayer-windings
 date: 2013-04-01
