@@ -19,3 +19,6 @@ The following topics are covered in the course:
   microprocessor peripherals.
 * Practical exercises with a demonstrative board.
 * Practical implementation of a drive with a synchronous motor
+
+The course is entirely practical and is based on the hardware
+described <a href='/software/cw'>here.</a>
