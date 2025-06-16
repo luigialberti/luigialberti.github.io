@@ -28,12 +28,15 @@ renewable materials have been adopted whenever possible:</p>
 control.</p>
 
 <p>
-    <image src='/images/dolomites/cw_plecs.png' />
+    <image src='/images/dolomites/cw_plecs.jpeg' />
 </p>
 
 <p>
-Being an open-hardware project all the necessary information to reproduce it
-are available in the dolomites repository.
-If you are looking for a turn-key solution with a ready to start bundle
-please contact: <a href='mailto:cw.dolomites@gmail.com'>cw.dolomites@gmail.com</a>
+Being an open-hardware project, a description of the components to realize it
+is available in the dolomites repository.
+
+If you are looking for help in manufacturing it, I can share some options about
+companies able to provide turnkey solutions and a ready-to-start bundle.
+In such a case, please contact this dedicated e-mail:
+<a href='mailto:cw.dolomites@gmail.com'>cw.dolomites@gmail.com</a>
 </p>
