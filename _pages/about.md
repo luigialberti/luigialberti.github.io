@@ -7,18 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-My academic interests are in the field of Electrical Engineering, in particular
-in the analysis and design of electrical machines and drives and the related control systems.
+My academic interests lie in the field of Electrical Engineering,
+particularly in the analysis and design of electrical machines and drives,
+as well as the related control systems.
 
-I got my MSc and the PhD in Electrical Engineering at the University of Padova
-in 2005 and 2009 respectively.
+I obtained my MSc and PhD in Electrical Engineering from the University
+of Padova in 2005 and 2009, respectively.
 
-Between 2009 and 2012 I have been working at the Electric Drive Laboratory
-of the University of Padova with a post doc position.
+From 2009 to 2012, I worked at the Electric Drive Laboratory of
+the University of Padova as a postdoctoral researcher.
 
-Between 2012 and 2016 I have been with the Faculty of Science and Technology
-of the Free University of Bozen-Bolzano where I become
-Associate Professor in 2015.
+From 2012 to 2016, I was with the Faculty of Science and Technology
+at the Free University of Bozen-Bolzano (Italy), where I became an Associate
+Professor in 2015.
 
-Since 2016 I'm Associate Professor with the Department of Industrial Engineering
-of the University of Padova.
+In 2016, I returned to the Department of Industrial Engineering at
+the University of Padova, where I am currently a Full Professor.
