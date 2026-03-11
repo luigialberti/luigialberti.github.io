@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "MSc Thesis Topics"
+permalink: /thesis/msc/
+author_profile: false
+---
+{% include base_path %}
+
+{% assign msc_posts = site.thesis | where: "type", "MSc" %}
+
+{% for post in msc_posts reversed %}
+  {% include archive-thesis.html post=post %}
+{% endfor %}

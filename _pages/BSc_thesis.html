@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "BSc Thesis Topics"
+permalink: /thesis/bsc/
+author_profile: false
+---
+{% include base_path %}
+
+{% assign bsc_posts = site.thesis | where: "type", "BSc" %}
+
+{% for post in bsc_posts reversed %}
+  {% include archive-thesis.html post=post %}
+{% endfor %}
