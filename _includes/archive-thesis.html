@@ -34,14 +34,14 @@
       {% endif %}
     </h2>
 
-    <!-- {% if post.type == "BSc" %} -->
-      <!-- <p><strong>BSc thesis</strong></p> -->
-    <!-- {% elsif post.type == "MSc" %} -->
-      <!-- <p><strong>MSc thesis</strong></p> -->
-      <!-- <p>{{ post.excerpt | strip_html | truncate: 180 }}</p> -->
-    <!-- {% else %} -->
-      <!-- <p><strong>Thesis</strong></p> -->
-    <!-- {% endif %} -->
+    {% if post.type == "BSc" %}
+      <p><strong>BSc thesis</strong></p>
+    {% elsif post.type == "MSc" %}
+      <p><strong>MSc thesis</strong></p>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    {% else %}
+      <p><strong>Thesis</strong></p>
+    {% endif %}
 
 
 
