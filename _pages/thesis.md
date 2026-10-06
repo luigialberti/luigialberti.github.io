@@ -53,7 +53,7 @@ Please choose the section relevant to your degree:
       <h2 style="margin:0;">General info</h2>
 
       <a class="btn btn--primary"
-         href="/thesis/bsc/"
+         href="/thesis/guide/"
          style="margin-left:auto;">
          Read
       </a>
