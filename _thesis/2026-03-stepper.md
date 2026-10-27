@@ -3,6 +3,7 @@ title: "Controllo di una piccola CNC con Arduino"
 collection: thesis
 type: "BSc"
 excerpt: "Breve descrizione"
+published: false
 ---
 
 

@@ -12,7 +12,9 @@ Here you can find:
 - final-year projects for **Bachelor's students**
 - thesis topics for **Master's students**
 
-Please choose the section relevant to your degree:
+At the bottom of this page you will also find some general
+guidelines on how to organize your thesis work. Please read them carefully,
+as they will help you plan your work and activities from the very beginning.
 
 <br>
 
@@ -50,7 +52,7 @@ Please choose the section relevant to your degree:
       <img src="/images/icons/ink.png" style="height:20px;">
       <img src="/images/icons/tex.png" style="height:20px;">
       <img src="/images/icons/python.png" style="height:20px;">
-      <h2 style="margin:0;">General info</h2>
+      <h2 style="margin:0;">Thesis writing guidelines</h2>
 
       <a class="btn btn--primary"
          href="/thesis/guide/"
