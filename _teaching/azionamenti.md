@@ -1,7 +1,7 @@
 ---
 title: "Electric drives"
 collection: teaching
-type: "Graduated course"
+type: "Graduate course"
 permalink: /teaching/azionamenti
 venue: "MSc in Electrical Engineering"
 date: 2020-09-01

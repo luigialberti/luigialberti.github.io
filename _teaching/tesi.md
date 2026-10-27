@@ -8,6 +8,6 @@ date: 2020-09-01
 # location: "City, Country"
 ---
 
-Various topics are proposed as final thesis for both BSc students
-and MSc students. Please contact me to fix an appointment an discuss about
-your final work!
+Various topics are proposed as final theses for both BSc and MSc students.
+The current proposals are listed on the <a href='/thesis/'>thesis page</a>.
+Please contact me to set up an appointment and discuss your final work!

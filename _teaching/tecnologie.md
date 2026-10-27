@@ -1,14 +1,14 @@
 ---
 title: "Lab of electric drives"
 collection: teaching
-type: "Graduated course"
+type: "Graduate course"
 permalink: /teaching/tecnologie
 venue: "MSc in Electrical Engineering"
 date: 2020-09-01
 # location: "City, Country"
 ---
 
-This is a laboratory course (practical) where an electric drive is
+This is a practical laboratory course in which an electric drive is
 designed and realized using a microprocessor.
 
 
@@ -18,7 +18,7 @@ The following topics are covered in the course:
 * Communication, GPIOs, ADC, PWM, encoder and other relevant
   microprocessor peripherals.
 * Practical exercises with a demonstrative board.
-* Practical implementation of a drive with a synchronous motor
+* Practical implementation of a drive with a synchronous motor.
 
 The course is entirely practical and is based on the hardware
 described <a href='/software/cw'>here.</a>

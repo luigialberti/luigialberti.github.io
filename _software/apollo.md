@@ -4,11 +4,11 @@ collection: software
 excerpt: "apollo: a tool to evaluate self-sensing capability of a synchronous machine."
 ---
 <p>
-apollo is a package to elaborate flux-linkage maps of a synchronous machine.
+apollo is a package to process the flux-linkage maps of a synchronous machine.
 A full description of the underlying algorithm can be found in
 <a href='/publication/self-sensing'>this paper</a>.</p>
-<p>As an example, the following code evaluate the self-sensing capability
-trjectories starting from the flux maps of a motor.</p>
+<p>As an example, the following code evaluates the self-sensing capability
+trajectories starting from the flux maps of a motor.</p>
 
 ```python
 # import apollo
@@ -23,7 +23,7 @@ mot.create_maps()
 # compute the apparent inductances mot.Ld and mot.Lq
 mot.calc_apparent_inductances()
 
-# compute the incremental inductances mot.ldd, mot.ldq, mot.lqd, mot.lqd, mot.lqq, mot.lsigma, mot.ldelta
+# compute the incremental inductances mot.ldd, mot.ldq, mot.lqd, mot.lqq, mot.lsigma, mot.ldelta
 mot.calc_incremental_inductances(method = 'gradient')
 
 # Compute the mtpa trajectory

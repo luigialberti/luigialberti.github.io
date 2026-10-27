@@ -1,16 +1,16 @@
 ---
 title: "fnc"
 collection: software
-excerpt: "fnc: an utility to visualize space vectors related to 3-phase systems. Based on PySide6 widgets."
+excerpt: "fnc: a utility to visualize space vectors related to 3-phase systems. Based on PySide6 widgets."
 ---
 <p>
-fnc is an utility to visualize space vectors related to 3-phase systems.
+fnc is a utility to visualize space vectors related to 3-phase systems.
 It is based on PySide6 widgets.</p>
-<p>As an example, the following code evaluate two periods of a
-three-phase system curents, considering the foundamental and seventh
-order harmonics. The corresponding space vector trjectory is computed
+<p>As an example, the following code evaluates two periods of a
+three-phase system of currents, considering the fundamental and the seventh
+order harmonics. The corresponding space vector trajectory is computed
 and shown in the widget.
-The current wavefors versus time are shown as well, the two representations being
+The current waveforms versus time are shown as well, the two representations being
 synchronized.</p>
 
 ```python
@@ -22,7 +22,7 @@ app = QApplication([])
 win = fnc.fnc_widget()
 
 
-f  = 50  # the frequncy of the current (Hz)
+f  = 50  # the frequency of the current (Hz)
 Im = 100 # the peak value (A)
 t  = np.linspace(0,2/f,201) # we take 2 periods
 
